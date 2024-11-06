@@ -1,0 +1,89 @@
+<resources>
+    <!-- App and Category Strings -->
+    <string name="app_name">Baguio Tour Guide</string>
+    <string name="category_image">Category Image</string>
+    <string name="place_detail_name">Place Name</string>
+    <string name="place_description_one">Description of the place.</string>
+    <string name="place_list_title">Place List</string>
+    <string name="popular">Popular</string>
+    <string name="landmarks">Landmarks</string>
+    <string name="historical">Historical</string>
+    <string name="restaurants">Restaurants</string>
+
+    <!-- Popular Places -->
+    <string name="popular_place_1">Burnham Park</string>
+    <string name="popular_place_2">Mines View Park</string>
+    <string name="popular_place_3">The Mansion</string>
+    <string name="popular_place_4">Wright Park</string>
+    <string name="popular_place_5">Camp John Hay</string>
+
+    <!-- Landmarks -->
+    <string name="landmark_place_1">Baguio Cathedral</string>
+    <string name="landmark_place_2">Baguio City Hall</string>
+    <string name="landmark_place_3">Philippine Military Academy</string>
+    <string name="landmark_place_4">Session Road</string>
+    <string name="landmark_place_5">Botanical Garden</string>
+
+    <!-- Historical Places -->
+    <string name="historical_place_1">Lion\'s Head</string>
+    <string name="historical_place_2">Tam-awan Village</string>
+    <string name="historical_place_3">Diplomat Hotel</string>
+    <string name="historical_place_4">Kennon Road</string>
+    <string name="historical_place_5">Laperal White House</string>
+
+    <!-- Restaurants -->
+    <string name="restaurant_place_1">Good Taste</string>
+    <string name="restaurant_place_2">Arca\'s Yard</string>
+    <string name="restaurant_place_3">Cafe by the Ruins</string>
+    <string name="restaurant_place_4">Oh My Gulay</string>
+    <string name="restaurant_place_5">Hill Station</string>
+
+    <string name="placeholder_text">Your placeholder description here</string>
+    <string name="place_detail_name_placeholder">Placeholder</string>
+    <string name="place_description_placeholder">Placeholder</string>
+
+    <string name="popular_place_1_description">Baguio\'s central park, known for its scenic lake, bike rentals, and lush gardens,Burnham Park is perfect for picnics, paddle boating, and family outings. It\'s a great spot to experience Baguio’s cool weather and enjoy a laid-back afternoon.
+    </string>
+    <string name="popular_place_2_description">Overlooking the mining town of Itogon, Mines View Park offers panoramic mountain views and is famous for its observation deck, where visitors can see the vast Cordillera mountains and valleys below. It\’s also a popular place for photo-ops with native costumes and St. Bernard dogs.
+    </string>
+    <string name="popular_place_3_description">This is the official summer residence of the Philippine president,featuring stately architecture and beautiful grounds. While visitors can’t enter the building itself,they can admire its façade and enjoy the surrounding gardens and nearby Wright Park.
+    </string>
+    <string name="popular_place_4_description">Known for its pool of pines and the "Pool of Pines,"Wright Park offers a cool stroll under towering pine trees and a horseback riding area. This spot is ideal for families and nature lovers wanting to relax amidst pine-scented air.
+    </string>
+    <string name="popular_place_5_description">A former U.S. military recreational camp, Camp John Hay now offers a mix of leisure activities such as golf, hiking trails, shopping, and dining. It’s a must-visit for those wanting to experience a serene side of Baguio with upscale amenities.
+    </string>
+
+    <string name="landmark_place_1_description">This iconic pink church sits atop Mount Mary Hill, providing a stunning view of the city.Known for its twin spires and rose-colored façade, it’s a peaceful place for reflection, and the hilltop offers a nice spot to view the bustling city below.
+    </string>
+    <string name="landmark_place_2_description">One of the heart buildings of Baguio, Baguio City Hall is a historic building that houses the city\'s main offices. Its architectural design, painted in white and green, stands out as  symbol of governance and heritage in Baguio.
+    </string>
+    <string name="landmark_place_3_description">The premier military training institution in the Philippines, PMA is a popular destination with its museum, historical monuments, and well-maintained grounds. Visitors can alsoenjoy a parade on weekends, showcasing cadet drills and routines.
+    </string>
+    <string name="landmark_place_4_description">This busy main street is known for its shops, restaurants, and vibrant atmosphere, making it a landmark of modern Baguio. It’s where locals and tourists alike converge, offering a mix of commerce and culture in a single lively stretch.
+    </string>
+    <string name="landmark_place_5_description">This garden is famous for its mix of cultural statues, native huts, and lush green spaces. It’s a great spot for a leisurely stroll while appreciating the traditional Igorot way of life represented through exhibits.
+    </string>
+
+    <string name="historical_place_1_description">Carved into the mountains along Kennon Road, this massive lion statue is a Baguio icon symbolizing the Lion’s Club’s dedication to the area. It’s a popular stop for travelers heading to Baguio, offering a unique photo opportunity.
+    </string>
+    <string name="historical_place_2_description">A cultural village and art gallery, Tam-awan is a recreation of an Ifugao village showcasing native huts and local artworks. It’s an ideal place to learn about the region’s Indigenous culture and appreciate local art and craftsmanship.
+    </string>
+    <string name="historical_place_3_description">An abandoned hotel on top of Dominican Hill, Diplomat Hotel is known for its eerie history and Spanish colonial architecture. It’s a fascinating, if spooky, location to explore, often sought by those interested in ghost and urban legends.
+    </string>
+    <string name="historical_place_4_description">This historic winding mountain road, built in the early 1900s, was one of the first access roads to Baguio. With breathtaking views along the way, it showcases the engineering marvels and the resilience of early road builders in the Cordilleras.
+    </string>
+    <string name="historical_place_5_description">Known as one of Baguio\'s oldest and most haunted houses, this ancestral mansion has a storied past dating back to the 1920s. Its architecture and eerie ambiance attract visitors interested in Baguio’s paranormal history.
+    </string>
+
+    <string name="restaurant_place_1_description">A beloved restaurant offering generous servings of Filipino and Chinese dishes, Good Taste is perfect for budget-conscious travelers and big groups. Known for its affordable prices and extensive menu, it’s a must-try spot for delicious local flavors.
+    </string>
+    <string name="restaurant_place_2_description">A unique café with a cozy atmosphere and mountain views, Arca’s Yard is famous for its cultural decor, local art, and homemade dishes. The restaurant also serves Camote Pie, a favorite dessert that highlights Baguio’s indigenous flavors.
+    </string>
+    <string name="restaurant_place_3_description">This cafe preserves the ruins of a World War 2 structure, offering a rustic ambiance with a focus on Filipino cuisine ang locally sourced ingredients. Known for its breads and traditional dishes, it\'s a favorite spot for experiencing Baguio\'s cultural roots.
+    </string>
+    <string name="restaurant_place_4_description">This artsy vegetarian café serves delicious plant-based meals in a gallery-like setting. The eclectic decor and scenic view of Baguio make it a great place for healthy dining with a creative vibe.
+    </string>
+    <string name="restaurant_place_5_description">Situated in Casa Vallejo, this fine-dining restaurant offers a blend of European, Asian, and American cuisines. With its colonial-era interiors, Hill Station exudes an old-world charm, making it a perfect venue for a memorable dining experience.
+    </string>
+
+</resources>

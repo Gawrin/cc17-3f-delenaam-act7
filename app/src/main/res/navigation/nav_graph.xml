@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/categorySelectionFragment">
+
+    <fragment
+        android:id="@+id/categorySelectionFragment"
+        android:name="com.example.cc17_3f_delenaam_act7.CategorySelectionFragment"
+        android:label="Category Selection"
+        tools:layout="@layout/fragment_category_selection">
+        <action
+            android:id="@+id/action_categorySelectionFragment_to_placeListFragment"
+            app:destination="@id/placeListFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/placeListFragment"
+        android:name="com.example.cc17_3f_delenaam_act7.PlaceListFragment"
+        android:label="Place List"
+        tools:layout="@layout/fragment_place_list">
+        <argument
+            android:name="category"
+            app:argType="string" />
+        <action
+            android:id="@+id/action_placeListFragment_to_placeDetailFragment"
+            app:destination="@id/placeDetailFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/placeDetailFragment"
+        android:name="com.example.cc17_3f_delenaam_act7.PlaceDetailFragment"
+        android:label="Place Detail"
+        tools:layout="@layout/fragment_place_detail">
+        <argument
+            android:name="placeName"
+            app:argType="string" />
+        <argument
+            android:name="imageResId"
+            app:argType="integer" />
+        <argument
+            android:name="description"
+            app:argType="string" />
+    </fragment>
+</navigation>
