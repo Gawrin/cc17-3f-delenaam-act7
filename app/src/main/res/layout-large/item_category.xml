@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    card_view:cardCornerRadius="8dp"
+    card_view:cardElevation="4dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp">
+
+        <ImageView
+            android:id="@+id/categoryImage"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:scaleType="centerCrop"
+            android:background="@drawable/rounded_corners"
+            android:contentDescription="@string/category_image"
+            android:clipToOutline="true" />
+
+        <TextView
+            android:id="@+id/categoryTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/categoryImage"
+            android:layout_marginTop="8dp"
+            android:layout_centerHorizontal="true"
+            android:text="Category Title"
+            android:textSize="16sp"
+            android:textColor="?attr/colorOnSurface"
+            android:fontFamily="sans-serif-medium" />
+
+        <TextView
+            android:id="@+id/place_description_one"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:paddingTop="4dp" />
+    </RelativeLayout>
+
+</com.google.android.material.card.MaterialCardView>

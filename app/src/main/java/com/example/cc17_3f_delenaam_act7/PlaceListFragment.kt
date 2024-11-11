@@ -1,5 +1,6 @@
 package com.example.cc17_3f_delenaam_act7
 
+import android.content.res.Configuration
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
@@ -78,6 +79,15 @@ class PlaceListFragment : Fragment() {
 
         // Update the title to reflect the selected category
         (activity as MainActivity).supportActionBar?.title = selectedCategory
+
+        val orientation = resources.configuration.orientation
+        val isLandscape = orientation == Configuration.ORIENTATION_LANDSCAPE
+
+        binding.placeRecyclerView.layoutManager = when {
+            isTablet && isLandscape -> GridLayoutManager(requireContext(), 3)
+            isTablet || isLandscape -> GridLayoutManager(requireContext(), 2)
+            else -> LinearLayoutManager(requireContext())
+        }
     }
 
     private fun navigateToPlaceDetail(place: PlaceAdapter.Place) {

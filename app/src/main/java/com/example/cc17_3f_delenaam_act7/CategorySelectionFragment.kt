@@ -1,5 +1,6 @@
 package com.example.cc17_3f_delenaam_act7
 
+import android.content.res.Configuration
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
@@ -35,6 +36,13 @@ class CategorySelectionFragment : Fragment() {
         val adapter = CategoryAdapter(categories) { category ->
             navigateToPlaceList(category.title)
         }
+
+
+        val orientation = resources.configuration.orientation
+        val isLandscape = orientation == Configuration.ORIENTATION_LANDSCAPE
+        val spanCount = if (isLandscape) 4 else 2
+
+        binding.categoryRecyclerView.layoutManager = GridLayoutManager(requireContext(), spanCount)
 
         binding.categoryRecyclerView.layoutManager = GridLayoutManager(requireContext(), 2)
         binding.categoryRecyclerView.adapter = adapter
